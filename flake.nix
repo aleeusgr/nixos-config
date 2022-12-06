@@ -40,7 +40,7 @@
       systems = ["x86_64-linux" "aarch64-darwin"];
 
       imports = [
-        #./parts/auxiliary.nix
+        ./parts/auxiliary.nix
         ./parts/home_configs.nix
         ./parts/system_configs.nix
 
